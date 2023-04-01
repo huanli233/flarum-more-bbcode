@@ -17,7 +17,7 @@ app.initializers.add("imeepo/more-bbcode", () => {
           const range = this.attrs.composer.editor.getSelectionRange();
           this.attrs.composer.editor.moveCursorTo(range[1] - 8);
         }}
-        icon="fa fa-comment-medical"
+        icon="fas fa-comment-medical"
       >
         {app.translator.trans("imeepo-more-bbcode.forum.button_tooltip_reply")}
       </TextEditorButton>
